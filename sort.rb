@@ -1,9 +1,9 @@
 index = 0
 
 numbers = []
-puts("整数を入力してください")
+puts("整数を入力してください。0で終了します。")
 while true
-	number = gets
+	number = gets.to_i
 	if number == 0 then
 		break
 	end
